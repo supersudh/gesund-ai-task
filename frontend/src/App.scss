@@ -1,0 +1,45 @@
+html {
+  height: -webkit-fill-available; /* We have to fix html height */
+}
+
+body {
+  min-height: 100vh;
+  background-color: #171c24;
+}
+
+.App {
+  padding: 2rem;
+}
+
+.image-upload-container {
+  .upload-btn {
+    background-color: #323A45;
+    color: #FFF;
+  }
+}
+
+.image-preview-container {
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow: scroll;
+
+  .preview-img-card {
+    width: 250px;
+    height: 250px;
+    .preview-img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      border: 3px solid grey;
+    }
+  }
+}
+
+.image-renderer-container {
+  max-height: 100vh;
+  min-height: 100vh;
+  .selected-img {
+    width: 100%;
+    height: 100%;
+  }
+}
